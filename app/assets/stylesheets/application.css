@@ -13,6 +13,10 @@
  *= require_tree .
  *= require_self
  */
+a{
+	color: #f1e9d2;
+}
+
 .home-body{
 	background-image: url("/assets/overunder.png");
 }
@@ -21,4 +25,20 @@
 	color: #f1e9d2;
 	margin-top: 500px;
 	margin-left: 600px;
+	font-family: 'PT Mono', monospace;
+}
+
+.links{
+	color: #f1e9d2;
+	font-family: 'PT Mono', monospace;
+}
+
+ul{
+	list-style-type: none;
+    display: inline-flex;
+    float: right;
+    margin-right: 170px;
+}
+.ig{
+	margin-right: 9px;
 }
