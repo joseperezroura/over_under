@@ -19,6 +19,8 @@ a{
 
 .home-body{
 	background-image: url("/assets/overunder.png");
+	background-repeat: no-repeat;
+	
 }
 
 .opening-soon{
