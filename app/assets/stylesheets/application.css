@@ -18,9 +18,10 @@ a{
 }
 
 .home-body{
+	width: 100%;
+	/*height: auto;*/
 	background-image: url("/assets/overunder.png");
 	background-repeat: no-repeat;
-	
 }
 
 .opening-soon{
@@ -39,7 +40,7 @@ ul{
 	list-style-type: none;
     display: inline-flex;
     float: right;
-    margin-right: 170px;
+    margin-right: 270px;
 }
 .ig{
 	margin-right: 9px;
