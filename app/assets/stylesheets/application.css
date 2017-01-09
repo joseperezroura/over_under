@@ -13,35 +13,44 @@
  *= require_tree .
  *= require_self
  */
+
+h1{
+	margin-bottom: 0px;
+	text-shadow: 2px 2px #000000;
+}
 a{
 	color: #f1e9d2;
+}
+.img-thumbnail{
+	border: 1px solid black;
+	background: #f1e9d2;
 }
 
 .home-body{
 	width: 100%;
 	/*height: auto;*/
-	background-image: url("/assets/overunder.png");
+	background-color: #535F74;
 	background-repeat: no-repeat;
 }
 
 .opening-soon{
 	color: #f1e9d2;
-	margin-top: 500px;
-	margin-left: 600px;
 	font-family: 'PT Mono', monospace;
 }
 
 .links{
 	color: #f1e9d2;
 	font-family: 'PT Mono', monospace;
+	font-size: 25px;
+	text-shadow: 2px 2px #000000;
 }
 
 ul{
 	list-style-type: none;
     display: inline-flex;
     float: right;
-    margin-right: 270px;
+    /*margin-right: 270px;*/
 }
 .ig{
-	margin-right: 9px;
+	margin-right: 12px;
 }
